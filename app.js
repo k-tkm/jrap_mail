@@ -78,7 +78,7 @@ function sendMail(smtpData, mailData) {
 }
 
 //朝７時に定期実行
-cron.schedule("0 04 20 * * *", () =>
+cron.schedule("0 0 7 * * *", () =>
   get_top10()
     .then(function (results) {
       //取得したタイトルをtop10まで追加
