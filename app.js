@@ -95,7 +95,7 @@ cron.schedule("0 0 7 * * *", () =>
           secure: true,
           auth: {
             user: "dkgi345sd90@gmail.com",
-            pass: "dij345iois",
+            pass: "my_password",
           },
         };
         const mailData = {
